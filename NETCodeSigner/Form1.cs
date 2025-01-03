@@ -29,7 +29,7 @@ namespace NETCodeSigner
             OpenFileDialog ofd = new OpenFileDialog
             {
                 Title = "Browse app file",
-                Filter = "Application files|*.exe|System files|*.dll",
+                Filter = "Application files|*.exe|System files|*.dll|System files|*.sys",
                 CheckFileExists = true,
                 CheckPathExists = true,
                 Multiselect = false
